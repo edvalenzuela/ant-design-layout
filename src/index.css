@@ -1,0 +1,71 @@
+/* *{
+	border: 1px solid red;
+} */
+
+.container{
+	width: 100%;
+	max-width: 1000px;
+	margin: auto;
+	border: 1px solid red;
+	height: 100vh;
+}
+
+.ant-row{
+	background-color: black;
+	flex-wrap: nowrap;
+	column-gap: 5px;
+	height: 150px;
+}
+
+.ant-row div.ant-col{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: white;
+	font-weight: bold;
+	font-size: 24px;
+}
+
+/* XS screen < 576px*/
+body{
+	background-color: brown;
+}
+
+/* SM Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+	body{
+		background-color: green;
+	}
+}
+
+/* MD Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+	body{
+		background-color: yellow;
+	}
+ }
+
+/* LG Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+	body{
+		background-color: darkblue;
+	}
+}
+
+/* XL X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+	body{
+		background-color: peru;
+	}
+}
+
+/* XXL XX-Large devices (larger desktops, 1600px and up) */
+
+@media (min-width: 1600px) { 
+	body{
+		background-color: red;
+	}
+}
+
+/* https://ant.design/components/grid#components-grid-demo-responsive */
+/* https://getbootstrap.com/docs/5.3/layout/breakpoints/ */
